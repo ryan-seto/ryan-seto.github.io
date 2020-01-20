@@ -1,0 +1,140 @@
+body {
+    font-family: Arial;
+    background-color: rgb(132, 204, 233);
+    margin: 50px;
+    border: solid black;
+    border-style: solid;
+    border-radius: 20px;
+    border-width: 20px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+  
+ul li {
+float: left;
+margin: none;
+}
+
+ul li a {
+display: block;
+color: white;
+text-align: center;
+padding: 14px 16px;
+text-decoration: none;
+}
+
+ul li a:hover {
+background-color: #111;
+}
+
+ul li a {
+    text-decoration: none;
+    color: white;
+    display: block;  
+}
+
+ul li a:hover {
+    background-color: rgb(104, 104, 163);
+}
+
+ul li ul li {
+    display: none;
+    margin: none;   
+    
+}
+
+ul li:hover ul li {
+    display: block;
+}
+
+#main {
+    width: 1400px;
+    height: 800px;
+}
+
+#main-heading {
+    line-height: 200px;
+    width: 400px;
+    height: 150px;
+    padding-left: 150px;
+}
+
+#main-words {
+    float: left;
+    width: 400px;
+    height: 150px;
+    padding-left: 150px;
+    padding-top: 50px;
+    line-height: 30px;
+}
+
+#front-pic {
+    margin-left: 150px;
+    padding-left: 300px;
+    padding-right: 300px;
+    border-radius: 50%;   
+    border: 1px solid black;
+    padding: 5px;
+    border-width: 5px;
+}
+
+#about-words {
+    float: left;
+    width: 500px;
+    padding-left: 150px;
+    line-height: 30px;
+    padding-top: 50px
+}
+
+#about-pic {
+    float: right;
+    height: auto;
+    padding-right: 100px;
+    border: 1px solid black;
+    border-radius: 4px;
+    padding: 5px;
+    border-width: 5px;
+    margin-right: 100px ;
+}
+
+#projects-heading {
+    padding-left: 150px;
+}
+
+#projects-heading1 {
+    padding-top: 50px;
+    padding-left: 150px;
+}
+
+#projects-heading2 {
+    padding-top: 300px;
+    padding-left: 150px;
+}
+
+#projects-words {
+    float: left;
+    width: 450px;
+    height: 250px;
+    padding-left: 150px;
+}
+
+#projects-pic {
+    height: auto;
+    float: right;
+    display: flex;
+    margin-right: 150px;
+    border: 1px solid black;
+    border-radius: 4px;
+    padding: 5px;
+    border-width: 5px;
+}
+
+#footer {
+    clear: both;
+}
